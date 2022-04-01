@@ -1,0 +1,65 @@
+Parameter Fields,Value
+CAMPAIGN_PROJECT,Remain the same
+PROGRAM_ID,Remain the same
+CLIENT_GROUP,Custom field (Client Group - Client Name)
+CLIENT,Custom field (Client Group - Client Name)
+INDUSTRY,Custom field (Industry)
+CLIENT_TYPE,Custom field (Client Type)
+CAMPAIGN_OBJ,Custom field (Campaign Objective)
+MSISDN,MSISDN
+CAMAPAIGN_FREQUENCY,"Batch = One Time, RT = Realtime"
+MONTH_WEEK,getWeekOfMonth()
+SUBS_TYPE,SUBS_TYPE
+TRUEPOINT_UPDATE_DATE,TRUEPOINT_UPDATE_DATE
+LIFESTAGE,LIFESTAGE
+LIFESTYLE,LIFESTYLE
+CARD_TIER,CARD_TIER
+BALANCED_POINT,BALANCED_POINT
+MONTH,getMonth()
+WEBSITE_DOMAIN_URL,FST_URI
+WEBSITE_SUB_URL,HOST
+LATITUDE,LATITUDE
+LONGTITUDE,LONGITUDE
+INTERSEC_FILTER,INTERSEC_FILTER
+RECORD_TYPE,RECORD_TYPE
+RECORD_TIMESTAMP,RECORD_TIMESTAMP
+EVENT,EVENT
+INTERSEC_TIMESTAMP,INTERSEC_TIMESTAMP
+INTERSEC_NAMES,INTERSEC_NAMES
+ADDITIONAL1,"if(RECORD_TYPE.equals(""SEQ"")){
+    java.text.DateFormat sdf = new java.text.SimpleDateFormat(""yyyyMMdd HHmmss"");
+    java.util.Date date = new java.util.Date();
+    String CurDate = sdf.format(date);
+    String Date = sdf.format(RT_TIMESTAMP);
+    return ""sourcedate:""+Date+"",currentdate:""+CurDate+"",latitude:""+LATITUDE+"",Longitude:""+LONGITUDE+"",URL:""+FST_URI+"",HOSTNAME:""+HOST;
+
+    } else if(RECORD_TYPE.equals(""INTERSEC"")){
+    java.text.DateFormat sdf = new java.text.SimpleDateFormat(""yyyyMMdd HHmmss"");
+    java.util.Date date = new java.util.Date();
+    String CurDate = sdf.format(date);
+    long cur_date = date.getTime();
+    String Date = sdf.format(INTERSEC_TIMESTAMP);
+    int delay=Math.toIntExact((cur_date-INTERSEC_TIMESTAMP)/60000l);
+    //return ""delay:""+delay+"",sourcedate:""+Date+"",currentdate:""+CurDate+"",filter:""+INTERSEC_FILTER+"",stamp:""+INTERSEC_TIMESTAMP+"",name:""+INTERSEC_NAMES+"",event:""+EVENT;
+    return ""delay:""+delay+"",sourcedate:""+Date+"",currentdate:""+CurDate+"",filter:""+INTERSEC_FILTER+"",name:""+INTERSEC_NAMES+"",event:""+EVENT;
+    }
+        return """";"
+ADDITIONAL2,
+ADDITIONAL3,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,
+,“”
+,“”

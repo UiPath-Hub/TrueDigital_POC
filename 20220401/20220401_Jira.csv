@@ -1,0 +1,44 @@
+Issue key,Issue id,Custom field (Preferred Date),Custom field (Preferred End Date and Time),Summary,Status,Assignee,Assignee Id,Custom field (Campaign Responsible Person),Custom field (Campaign Responsible Person)Id,Custom field ((Segment 1) Offer ID),Custom field ((Segment 1) Offer ID),Custom field ((Segment 2) Offer ID),Custom field ((Segment 3) Offer ID),Custom field ((Segment 4) Offer ID),Custom field (UAT Test Parday),Custom field (Trigger ID),Custom field (Trigger ID),Custom field (Program ID),Custom field (Program ID),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 2) SMS message + URL),Custom field ((Offer 3) SMS message + URL),Custom field ((Offer 4) SMS message + URL),Custom field ((Segment 1) Segment Name),Custom field ((Segment 1) Segment Name),Custom field ((Segment 2) Segment Name),Custom field ((Segment 3) Segment Name),Custom field ((Segment 4) Segment Name),Custom field ((Segment 1) Target Logic and Segment Size),Custom field ((Segment 2) Target Logic and Segment Size),Custom field ((Segment 3) Target Logic and Segment Size),Custom field ((Segment 4) Target Logic and Segment Size),Custom field (Campaign Type),Custom field (Offer Type),Custom field (Product Offer),Custom field (Client Group - Client Name),Custom field (Client Type),Custom field (Industry),Custom field (Campaign Objective),Custom field (Sender Name)
+APC-2207,470792,05/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-GIWL - Apr 22(High,Medium,Low)",Campaign Configuration,Prinyapat Kiatbampen,5fdad3694d2179006ef3c9e7,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Model_AIA_GIWL_High_A_Offer,,Model_AIA_GIWL_Medium_A_Offer,Model_AIA_GIWL_Low_A_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,ซื้อประกันชีวิตอาวุโสOK จาก AIA ให้พ่อแม่ ไม่ต้องตรวจสุขภาพ จ่ายเบี้ยเริ่มต้นเพียงวันละ 6บ. คุ้มครองชีวิตสูงสุด2แสนบาท สนใจ คลิก ((https://campaigns.aia.co.th/aia-dm/gi/tr/gi-t-50TP-noemail-popup.html?bannerID=SMS_GI-Benefit&cmpid=thdm-omega-1080)),,ซื้อประกันชีวิตอาวุโสOK จาก AIA ให้พ่อแม่ ไม่ต้องตรวจสุขภาพ จ่ายเบี้ยเริ่มต้นเพียงวันละ 6บ. คุ้มครองชีวิตสูงสุด2แสนบาท สนใจ คลิก ((https://campaigns.aia.co.th/aia-dm/gi/tr/gi-t-50TP-noemail-popup.html?bannerID=SMS_GI-Benefit&cmpid=thdm-omega-1081)),ซื้อประกันชีวิตอาวุโสOK จาก AIA ให้พ่อแม่ ไม่ต้องตรวจสุขภาพ จ่ายเบี้ยเริ่มต้นเพียงวันละ 6บ. คุ้มครองชีวิตสูงสุด2แสนบาท สนใจ คลิก ((https://campaigns.aia.co.th/aia-dm/gi/tr/gi-t-50TP-noemail-popup.html?bannerID=SMS_GI-Benefit&cmpid=thdm-omega-1082)),,Model_AIA_GIWL_High_A,,Model_AIA_GIWL_Medium_A,Model_AIA_GIWL_Low_A,,"Segment 1 - High click x drop overlay - GIWL - 50TP / no email / pop up LDP
+- Data table will provided from K.Pat to P'Kul
+- Product GIWL
+
+
+SMS size -  300,000","Segment 2 - Medium lead decile overlay x click - GIWL  - 50TP / no email / pop up LDP
+- Data table will provided from K.Pat to P'Kul
+- Product GIWL
+
+
+SMS size -  300,000","Segment 3 - Low lead decile overlay x click - GIWL  - 50TP / no email / pop up LDP
+- Data table will provided from K.Pat to P'Kul
+- Product GIWL
+
+
+SMS size -  100,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2208,470794,06/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-SIC - Apr 22 (High,Medium,Low)",Campaign Configuration,Prinyapat Kiatbampen,5fdad3694d2179006ef3c9e7,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Model_AIA_SI_High_A_Offer,,Model_AIA_SI_Medium_A_Offer,Model_AIA_SI_Low_A_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,เพราะมะเร็งมีค่ารักษาสูง ซื้อประกันมะเร็งจาก AIA ให้คนในครอบครัว คุ้มครองทุกระยะสูงสุด 1 ล้านบ. เบี้ยเริ่มต้นวันละ6บ. ไม่ต้องตรวจสุขภาพ คลิก ((https://campaigns.aia.co.th/aia-dm/sicancer/tr/si-t-ldp1.html?bannerID=SMS_SI-MAX-SA&cmpid=thdm-omega-1083)),,เพราะมะเร็งมีค่ารักษาสูง ซื้อประกันมะเร็งจาก AIA ให้คนในครอบครัว คุ้มครองทุกระยะสูงสุด 1 ล้านบ. เบี้ยเริ่มต้นวันละ6บ. ไม่ต้องตรวจสุขภาพ คลิก ((https://campaigns.aia.co.th/aia-dm/sicancer/tr/si-t-ldp1.html?bannerID=SMS_SI-MAX-SA&cmpid=thdm-omega-1084)),เพราะมะเร็งมีค่ารักษาสูง ซื้อประกันมะเร็งจาก AIA ให้คนในครอบครัว คุ้มครองทุกระยะสูงสุด 1 ล้านบ. เบี้ยเริ่มต้นวันละ6บ. ไม่ต้องตรวจสุขภาพ คลิก ((https://campaigns.aia.co.th/aia-dm/sicancer/tr/si-t-ldp1.html?bannerID=SMS_SI-MAX-SA&cmpid=thdm-omega-1085)),,Model_AIA_SI_High_A,,Model_AIA_SI_Medium_A,Model_AIA_SI_Low_A,,"Segment 1 - High click x drop overlay - SI Cancer
+- Data table will provided from K.Pat to P'Kul
+- Product SI Cancer
+
+
+SMS size -  300,000","Segment 2 - Medium lead decile overlay x click - SI Cancer
+- Data table will provided from K.Pat to P'Kul
+- Product SI Cancer
+
+
+SMS size -  300,000","Segment 3 - Low lead decile overlay x click - SI Cancer
+- Data table will provided from K.Pat to P'Kul
+- Product SI Cancer
+
+
+SMS size -  100,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2209,470795,06/Apr/22 12:00 AM,,[Campaign - Batch] AIA - AIA - AIA-Model-FreeCovid - Apr 22 (Medium),Campaign Configuration,Prinyapat Kiatbampen,5fdad3694d2179006ef3c9e7,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Model_AIA_FreeCovid_Medium_A_Offer,,,,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,"พิเศษสำหรับลูกค้าทรู! รับฟรี ประกันแพ้วัคซีนโควิด-19 จากAIA นอนรพ.รับเงินชดเชยวันละ1,000บ. หรือหากเสียชีวิตรับ 200,000 บ. คลิก ((https://www.aia.co.th/th/campaigns/tr/covid19vac-effect-regist.html?bannerID=SMS_COVID&cmpid=thdm-freecovideff-16))",,,,,Model_AIA_FreeCovid_Medium_A,,,,,"Segment 1 - Medium - Free Covid SE
+- Data table will provided from K.Pat to P'Kul
+- Product Free Covid SE
+
+
+SMS size -  1,000,000",,,,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2227,472144,01/Mar/22 12:00 AM,31/Mar/22 5:00 AM,[Campaign - Batch] Other - Testing - UIPath Testing (Mar 22),Campaign Configuration,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,UIPath_Test_A_Offer,,UIPath_Test_B_Offer,,,,TP_Batch_DecisionTable_Event,,Test_Batch_DecisionTable_1_Program,,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,,UIPath_Test_A,,UIPath_Test_B,,,"- ThaiID
+- Age 18 - 40
+- BKK","- ThaiID
+- Age 18 - 40
+- BMR",,,Awareness,Informative,E-Commerce - Promo,Other - Testing,External (Affiliate Model),Other,Test UIPath flow,TrueID
