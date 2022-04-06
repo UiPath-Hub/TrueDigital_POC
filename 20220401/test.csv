@@ -1,0 +1,64 @@
+Issue key,Issue id,Custom field (Preferred Date),Custom field (Preferred End Date and Time),Summary,Status,Assignee,Assignee Id,Custom field (Campaign Responsible Person),Custom field (Campaign Responsible Person)Id,Custom field ((Segment 1) Offer ID),Custom field ((Segment 1) Offer ID),Custom field ((Segment 2) Offer ID),Custom field ((Segment 3) Offer ID),Custom field ((Segment 4) Offer ID),Custom field (UAT Test Parday),Custom field (Trigger ID),Custom field (Trigger ID),Custom field (Program ID),Custom field (Program ID),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 2) SMS message + URL),Custom field ((Offer 3) SMS message + URL),Custom field ((Offer 4) SMS message + URL),Custom field ((Segment 1) Segment Name),Custom field ((Segment 1) Segment Name),Custom field ((Segment 2) Segment Name),Custom field ((Segment 3) Segment Name),Custom field ((Segment 4) Segment Name),Custom field ((Segment 1) Target Logic and Segment Size),Custom field ((Segment 2) Target Logic and Segment Size),Custom field ((Segment 3) Target Logic and Segment Size),Custom field ((Segment 4) Target Logic and Segment Size),Custom field (Campaign Type),Custom field (Offer Type),Custom field (Product Offer),Custom field (Client Group - Client Name),Custom field (Client Type),Custom field (Industry),Custom field (Campaign Objective),Custom field (Sender Name)
+APC-2236,472843,08/Apr/22 12:00 AM,,[Campaign - Batch] HomePro - HomePro - HomePro IMC (8 Apr),Campaign Testing,Pakthewee Rangthong,609baf27c8c05a0069a4f5c0,Chananchida Samothai,61fa6e0d8d9e3c00688f1a60,HomePro_IMC_HomeInterest_BangnaArea_Offer,,,,,,Retail_HomePro_IMC_Trigger,,Retail_HomePro_IMC_Program,,"โปรดับร้อน เฉพาะคุณเท่านั้น! รับส่วนลด 300.- เมื่อช้อปตั้งแต่ 6,000.- ขึ้นไป ที่โฮมโปร บางนา กม.1 เริ่ม 8 เม.ย. 65 – 30 เม.ย. 65 กดรับคูปอง ((https://homeprolineapp.com/2022-promotions?cps=22043)) สอบถามเพิ่มเติม1284",,,,,HomePro_IMC_HomeInterest_BangnaArea,,,,,"Required size = 30k SMS (for 8 apr)
+(Pls note that there will be another sms sent on 20apr (30k sms sizing), which use same logic but people who received on 20 apr should be different people than 8apr sms.
+
+Target Logic - อายุ 31-45
+- เอาเฉพาะกลุ่ม postpaid, ไม่เอา prepaid
+- สถานที่เปลี่ยนเป็นเฉพาะ บางนา
+- boost เพิ่มจำนวน interest กลุ่มเหล่านี้: Digital Payment, Banking, White Collar ,Delivery services, Finance
+- เพิ่งมีบ้านใหม่ หรือคอนโดใหม่, สนใจหาซื้อของแต่งบ้านและเครื่องใช้ไฟฟ้า
+
+Note: Previous sizing was done on ticket APC-2088",,,,Awareness,Informative,Retail,Other - Testing,External (Project Value >=100K),Retail,To recruit customer for HomePro,HomePro
+APC-2215,470842,08/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High1,2- Apr 22 (HB,HH)",Campaign Testing,Tanawin Jirarochthitinun,61693118289a54006ab43844,Anucha Soipha,607d32cccbff1b0070d60c5a,Model_AIA_HB_High_1_A_Offer,,Model_AIA_HB_High_2_A_Offer,Model_AIA_HH_High_2_A_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,"เจ็บป่วยหรือบาดเจ็บ ก็ไม่ต้องกลัวขาดรายได้ ด้วยประกันจาก AIA นอนรพ. รับเงินชดเชยวันละ 3,000 บ. คลิก!															((https://www.aia.co.th/th/campaigns/tr/hb-extra-sim.html?bannerID=SMS2_HB&cmpid=thdm-omega-1086))",,"เจ็บป่วยหรือบาดเจ็บ ก็ไม่ต้องกลัวขาดรายได้ ด้วยประกันจาก AIA นอนรพ. รับเงินชดเชยวันละ 3,000 บ. คลิก!															((https://www.aia.co.th/th/campaigns/tr/hb-extra-sim.html?bannerID=SMS2_HB&cmpid=thdm-omega-1087))","ประกันสุขภาพต้อง AIA! คุ้มครองแบบเหมาจ่าย ให้ค่าห้องสูงสุดวันละ 9,000 บ. นาน 365 วัน/ปี คลิก!															((https://www.aia.co.th/th/campaigns/tr/hh-t-ldp2.html??bannerID=SMS2_RB&cmpid=thdm-omega-1088))",,Model_AIA_HB_High_1_A,,Model_AIA_HB_High_2_A,Model_AIA_HH_High_2_A,,"Segment 1 - High 1 - HBX
+- Data table will provided from K.Pat to P'Kul
+- Product   HBX
+
+
+SMS size -  300,000","Segment 2 - High 2 - HBX
+- Data table will provided from K.Pat to P'Kul
+- Product   HBX
+
+
+SMS size -  150,000","Segment 3 - High 2 - Health Happy
+- Data table will provided from K.Pat to P'Kul
+- Product  Health Happy
+
+
+SMS size -  150,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2211,470830,08/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High1,2- Apr 22 (SIC,ICancer)",Campaign Testing,Tanawin Jirarochthitinun,61693118289a54006ab43844,Anucha Soipha,607d32cccbff1b0070d60c5a,Model_AIA_IC_High_1_A_Offer,,Model_AIA_SI_High_1_A_Offer,Model_AIA_IC_High_2_A_Offer,Model_AIA_SI_High_2_A_Offer,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,ซื้อประกันมะเร็ง AIA iCancer คุ้มครองมะเร็งทุกระยะ เป็นก็ได้เงิน ไม่เป็นก็มีเงินคืน จ่ายเบี้ยเริ่มต้นเพียงวันละ 3บ. สนใจ คลิก!															((https://www.aia.co.th/th/our-products/digital-products/icancer.html?bannerID=TDGSM&cmpid=thdm-ddp-09)),,เพราะมะเร็งมีค่ารักษาสูง ซื้อประกันมะเร็งจาก AIA ให้คนในครอบครัว คุ้มครองทุกระยะสูงสุด 1 ล้านบ. เบี้ยเริ่มต้นวันละ6บ. ไม่ต้องตรวจสุขภาพ คลิก ((https://campaigns.aia.co.th/aia-dm/sicancer/tr/si-t-ldp1.html?bannerID=SMS_SI-MAX-SA&cmpid=thdm-omega-1095)),ซื้อประกันมะเร็ง AIA iCancer คุ้มครองมะเร็งทุกระยะ เป็นก็ได้เงิน ไม่เป็นก็มีเงินคืน จ่ายเบี้ยเริ่มต้นเพียงวันละ 3บ. สนใจ คลิก!															((https://www.aia.co.th/th/our-products/digital-products/icancer.html?bannerID=TDGSM&cmpid=thdm-ddp-10)),เพราะมะเร็งมีค่ารักษาสูง ซื้อประกันมะเร็งจาก AIA ให้คนในครอบครัว คุ้มครองทุกระยะสูงสุด 1 ล้านบ. เบี้ยเริ่มต้นวันละ6บ. ไม่ต้องตรวจสุขภาพ คลิก ((https://campaigns.aia.co.th/aia-dm/sicancer/tr/si-t-ldp1.html?bannerID=SMS_SI-MAX-SA&cmpid=thdm-omega-1096)),Model_AIA_IC_High_1_A,,Model_AIA_SI_High_1_A,Model_AIA_IC_High_2_A,Model_AIA_SI_High_2_A,"Segment 1 - High 1 - 20-55 iCancer
+- Data table will provided from K.Pat to P'Kul
+- Product iCancer
+
+
+SMS size -  150,000","Segment 2 - High 1 - 20-49 SI Cancer
+- Data table will provided from K.Pat to P'Kul
+- Product SI Cancer
+
+
+SMS size -  150,000","Segment 3 - High 2 - 20-55 iCancer
+- Data table will provided from K.Pat to P'Kul
+- Product iCancer
+
+
+SMS size -  150,000","Segment 4 - High 2 - 20-49 SI Cancer
+- Data table will provided from K.Pat to P'Kul
+- Product SI Cancer
+
+
+SMS size -  150,000",Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2210,470806,07/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High 3- Apr 22(GIWL,FreeCovid)",Campaign Testing,Prinyapat Kiatbampen,5fdad3694d2179006ef3c9e7,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,,,,,,,,,,,ซื้อประกันชีวิตอาวุโสOK จาก AIA ให้พ่อแม่ ไม่ต้องตรวจสุขภาพ จ่ายเบี้ยเริ่มต้นเพียงวันละ 6บ. คุ้มครองชีวิตสูงสุด2แสนบาท สนใจ คลิก															((https://campaigns.aia.co.th/aia-dm/gi/tr/gi-t-50TP-noemail-popup.html?bannerID=SMS_GI-Benefit&cmpid=thdm-omega-1089)),,"พิเศษสำหรับลูกค้าทรู! รับฟรี ประกันแพ้วัคซีนโควิด-19 จากAIA นอนรพ.รับเงินชดเชยวันละ1,000บ. หรือหากเสียชีวิตรับ 200,000 บ. คลิก															((https://www.aia.co.th/th/campaigns/tr/covid19vac-effect-regist.html?bannerID=SMS_COVID&cmpid=thdm-freecovideff-15))",,,,,,,,"Segment 1 - High 3 - 20-49 GIWL - 50TP / no email / pop up LDP - weekday
+- Data table will provided from K.Pat to P'Kul
+- Product GIWL
+
+
+SMS size -  400,000","Segment 2 - High 3 - Free Covid SE
+- Data table will provided from K.Pat to P'Kul
+- Product Free Covid SE
+
+
+SMS size -  1,000,000",,,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2065,460929,01/Mar/22 12:00 AM,31/Mar/22 5:00 AM,[Campaign - Batch] Other - Testing - UIPath Testing (Mar 22),Campaign Testing,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,UIPath_Test_A_Offer,,UIPath_Test_B_Offer,,,,TP_Batch_DecisionTable_Event,,Test_Batch_DecisionTable_1_Program,,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,,UIPath_Test_A,,UIPath_Test_B,,,"- ThaiID
+- Age 18 - 40
+- BKK","- ThaiID
+- Age 18 - 40
+- BMR",,,Awareness,Informative,E-Commerce - Promo,Other - Testing,External (Affiliate Model),Other,Test UIPath flow,TrueID
