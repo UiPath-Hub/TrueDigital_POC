@@ -1,31 +1,32 @@
-Parameter Fields,Value,Type
-CAMPAIGN_PROJECT,Remain the same,java.lang.String
-PROGRAM_ID,Remain the same,java.lang.String
+Parameter Fields,,Type
+CAMPAIGN_PROJECT,"Batch = ""Batch""
+Rt = “RT”",java.lang.String
+PROGRAM_ID,PROGRAM_ID,java.lang.String
 CLIENT_GROUP,Custom field (Client Group - Client Name),java.lang.String
 CLIENT,Custom field (Client Group - Client Name),java.lang.String
 INDUSTRY,Custom field (Industry),java.lang.String
 CLIENT_TYPE,Custom field (Client Type),java.lang.String
 CAMPAIGN_OBJ,Custom field (Campaign Objective),java.lang.String
 MSISDN,MSISDN,java.lang.String
-CAMAPAIGN_FREQUENCY,"""Batch = One Time, RT = Realtime""",java.lang.String
-MONTH_WEEK,getWeekOfMonth(),int
-SUBS_TYPE,SUBS_TYPE,java.lang.String
-TRUEPOINT_UPDATE_DATE,"""TRUEPOINT_UPDATE_DATE""",java.lang.String
-LIFESTAGE,"""LIFESTAGE""",java.lang.String
-LIFESTYLE,"""LIFESTYLE""",java.lang.String
-CARD_TIER,CARD_TIER,java.lang.String
-BALANCED_POINT,"""BALANCED_POINT""",java.lang.String
-MONTH,getMonth(),java.lang.String
-WEBSITE_DOMAIN_URL,FST_URI,java.lang.String
-WEBSITE_SUB_URL,HOST,java.lang.String
-LATITUDE,"""LATITUDE""",java.lang.String
-LONGTITUDE,"""LONGITUDE""",java.lang.String
-INTERSEC_FILTER,INTERSEC_FILTER,java.lang.String
-RECORD_TYPE,RECORD_TYPE,java.lang.String
-RECORD_TIMESTAMP,"""RECORD_TIMESTAMP""",java.lang.String
-EVENT,EVENT,java.lang.String
-INTERSEC_TIMESTAMP,"""INTERSEC_TIMESTAMP""",java.lang.String
-INTERSEC_NAMES,INTERSEC_NAMES,java.lang.String
+CAMPAIGN_FREQUENCY,“One Time”,java.lang.String
+MONTH_WEEK,“”,java.lang.String
+SUBS_TYPE,“”,java.lang.String
+TRUEPOINT_UPDATE_DATE,“”,java.lang.String
+LIFESTAGE,“”,java.lang.String
+LIFESTYLE,“”,java.lang.String
+CARD_TIER,“”,java.lang.String
+BALANCED_POINT,“”,java.lang.String
+MONTH,“”,java.lang.String
+WEBSITE_DOMAIN_URL,“”,java.lang.String
+WEBSITE_SUB_URL,“”,java.lang.String
+LATITUDE,“”,java.lang.String
+LONGTITUDE,“”,java.lang.String
+INTERSEC_FILTER,“”,java.lang.String
+RECORD_TYPE,“”,java.lang.String
+RECORD_TIMESTAMP,“”,java.lang.String
+EVENT,“”,java.lang.String
+INTERSEC_TIMESTAMP,“”,java.lang.String
+INTERSEC_NAMES,“”,java.lang.String
 ADDITIONAL1,"if(RECORD_TYPE.equals(""SEQ"")){
     java.text.DateFormat sdf = new java.text.SimpleDateFormat(""yyyyMMdd HHmmss"");
     java.util.Date date = new java.util.Date();
@@ -44,8 +45,8 @@ ADDITIONAL1,"if(RECORD_TYPE.equals(""SEQ"")){
     return ""delay:""+delay+"",sourcedate:""+Date+"",currentdate:""+CurDate+"",filter:""+INTERSEC_FILTER+"",name:""+INTERSEC_NAMES+"",event:""+EVENT;
     }
         return """";",java.lang.String
-ADDITIONAL2,"""""",java.lang.String
-ADDITIONAL3,"""""",java.lang.String
+ADDITIONAL2,“”,java.lang.String
+ADDITIONAL3,“”,java.lang.String
 ,,
 ,,
 ,,
@@ -61,5 +62,6 @@ ADDITIONAL3,"""""",java.lang.String
 ,,
 ,,
 ,,
-,“”,
-,“”,
+,,
+,,
+,,
