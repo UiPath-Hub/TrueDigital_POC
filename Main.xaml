@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1348,21893.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ucat="clr-namespace:UiPath.Core.Activities.TextModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="928,3072" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ucat="clr-namespace:UiPath.Core.Activities.TextModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="56">
       <x:String>System.Activities</x:String>
@@ -109,7 +109,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="676.8,4135.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="492,3007.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="robot" Name="strUsername" />
       <Variable x:TypeArguments="x:String" Default="password" Name="strPassword" />
@@ -129,7 +129,7 @@
         <x:Boolean x:Key="IsPinned">False</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="635.2,194.4" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="450.4,194.4" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
       <ui:MultipleAssign.AssignOperations>
         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
@@ -167,9 +167,9 @@
         </scg:List>
       </ui:MultipleAssign.AssignOperations>
     </ui:MultipleAssign>
-    <ui:FolderExistsX DisplayName="Folder Exists" Exists="[blFolderExist]" sap:VirtualizedContainerService.HintSize="635.2,134.4" sap2010:WorkflowViewState.IdRef="FolderExistsX_1" Path="[strFolderName]" />
-    <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" AppliesTo="All" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="635.2,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome.exe" />
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="635.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:FolderExistsX DisplayName="Folder Exists" Exists="[blFolderExist]" sap:VirtualizedContainerService.HintSize="450.4,134.4" sap2010:WorkflowViewState.IdRef="FolderExistsX_1" Path="[strFolderName]" />
+    <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" AppliesTo="All" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="450.4,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome.exe" />
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="920,754.4" sap2010:WorkflowViewState.IdRef="Sequence_18">
           <sap:WorkflowViewStateService.ViewState>
@@ -226,7 +226,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="635.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_2">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="550.4,1845.6" sap2010:WorkflowViewState.IdRef="Sequence_19">
           <sap:WorkflowViewStateService.ViewState>
@@ -234,7 +234,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: [Batch Configuration] Issue navigator - True Digital Group - JIRA" sap:VirtualizedContainerService.HintSize="508.8,1712.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="acad9e96-67dd-473a-8037-e99bbce7fcb5" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: [Batch Configuration] Issue navigator - True Digital Group - JIRA" sap:VirtualizedContainerService.HintSize="508.8,1784.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="acad9e96-67dd-473a-8037-e99bbce7fcb5" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -325,7 +325,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="635.2,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_12">
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="450.4,52.8" sap2010:WorkflowViewState.IdRef="CommentOut_12">
       <ui:CommentOut.Body>
         <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="550.4,1845.6" sap2010:WorkflowViewState.IdRef="Sequence_73">
           <sap:WorkflowViewStateService.ViewState>
@@ -333,7 +333,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: [APC-2227] [Campaign - Batch] Other - Testing - UIPath Testing (Mar 22) - True D" sap:VirtualizedContainerService.HintSize="508.8,1712.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="3b2feae9-2a41-4ef3-80b2-04f95bdfe017" Version="V1">
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: [APC-2227] [Campaign - Batch] Other - Testing - UIPath Testing (Mar 22) - True D" sap:VirtualizedContainerService.HintSize="508.8,1784.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" ScopeGuid="3b2feae9-2a41-4ef3-80b2-04f95bdfe017" Version="V1">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -405,15 +405,15 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <ui:ReadCsvFile DataTable="[dtJiraTestingSource]" Delimitator="Comma" DisplayName="Read CSV" Encoding="UTF-8" FilePath="20220401\test.csv" sap:VirtualizedContainerService.HintSize="635.2,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_9" IncludeColumnNames="False" />
-    <ui:ReadCsvFile DataTable="[dtJiraSource]" Delimitator="Comma" DisplayName="Read CSV" Encoding="UTF-8" FilePath="20220329\20220329_Jira.csv" sap:VirtualizedContainerService.HintSize="635.2,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_2" IncludeColumnNames="False" />
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="KNOWESIS_LOGIN_SCREEN" sap:VirtualizedContainerService.HintSize="450.4,1661.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="IfNotOpen" ScopeGuid="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
+    <ui:ReadCsvFile DataTable="[dtJiraTestingSource]" Delimitator="Comma" DisplayName="Read CSV" Encoding="UTF-8" FilePath="20220401\test.csv" sap:VirtualizedContainerService.HintSize="450.4,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_9" IncludeColumnNames="False" />
+    <ui:ReadCsvFile DataTable="[dtJiraSource]" Delimitator="Comma" DisplayName="Read CSV" Encoding="UTF-8" FilePath="20220329\20220329_Jira.csv" sap:VirtualizedContainerService.HintSize="450.4,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_2" IncludeColumnNames="False" />
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="KNOWESIS_LOGIN_SCREEN" sap:VirtualizedContainerService.HintSize="450.4,1662.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="IfNotOpen" ScopeGuid="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="do" sap:VirtualizedContainerService.HintSize="416.8,1444.8" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence DisplayName="do" sap:VirtualizedContainerService.HintSize="416.8,1445.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -464,7 +464,7 @@
                 </ui:WaitUiElementAppear.Target>
               </ui:WaitUiElementAppear>
             </Sequence>
-            <Sequence DisplayName="create offer" sap:VirtualizedContainerService.HintSize="380.8,806.4" sap2010:WorkflowViewState.IdRef="Sequence_122">
+            <Sequence DisplayName="create offer" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_122">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -489,7 +489,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="offer" sap:VirtualizedContainerService.HintSize="1057.6,14449.6" sap2010:WorkflowViewState.IdRef="Sequence_120">
+                    <Sequence DisplayName="offer" sap:VirtualizedContainerService.HintSize="1057.6,14448" sap2010:WorkflowViewState.IdRef="Sequence_120">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="strText" />
                         <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtSelectSMSTemplate" />
@@ -504,18 +504,10 @@
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_31" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Offer ID)</Literal>
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
-                          </OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Offer ID)</InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Template ID'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1016,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_58" InteractionMode="DebuggerApi" Text="[strText]" Version="V1">
@@ -542,18 +534,10 @@
                       </uix:NTypeInto>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_32" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                            <Literal x:TypeArguments="x:String">Custom field ((Offer 1) SMS message + URL)</Literal>
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
-                          </OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Offer 1) SMS message + URL)</InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'SMS Content'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1016,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_60" InteractionMode="DebuggerApi" Text="[strText]" Version="V1">
@@ -625,18 +609,10 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_33" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Offer ID)</Literal>
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
-                          </OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Offer ID)</InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Offer ID'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1016,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_63" InteractionMode="DebuggerApi" Text="[strText]" Version="V1">
@@ -674,18 +650,10 @@
                       </uix:NTypeInto>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_34" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                            <Literal x:TypeArguments="x:String">Custom field (Preferred End Date and Time)</Literal>
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
-                          </OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Preferred End Date and Time)</InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1016,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[strText]" />
@@ -742,18 +710,10 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_35" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Segment Name)</Literal>
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
-                          </OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Segment Name)</InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '1SEGMENTS.equals(&quot;BATCH…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1016,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_68" InteractionMode="DebuggerApi" Text="[&quot;SEGMENTS.equals(&quot;&quot;&quot;+strText+&quot;&quot;&quot;)&quot;]" Version="V1">
@@ -768,18 +728,10 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_36" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                          </InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Offer ID)</Literal>
-                          </InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
-                          </OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                          </InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Offer ID)</InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="1016,60" sap2010:WorkflowViewState.IdRef="SetToClipboard_9" Text="[&quot;//Function To limit contact time &gt;&gt; getContactCount(&quot;&quot;category&quot;&quot;,&quot;&quot;offer&quot;&quot;,&quot;&quot;channel&quot;&quot;,&quot;&quot;startdate&quot;&quot;,&quot;&quot;enddate&quot;&quot;) &gt;= 1 &quot;+Environment.NewLine+&quot;//To limit 1 offer per 1 week(7days) use below condition&quot;+Environment.NewLine+&quot;if (MSISDN.equals(&quot;&quot;162ee445983a56b33910950a201f228ef12c90e5c2e620a634fb6b52d892a926&quot;&quot;)&quot;+Environment.NewLine+&quot;||MSISDN.equals(&quot;&quot;2774a12c96c02b75c5aa427b2bc70acea5cacd3f6b7db98d4bc3f3d8f4bca555&quot;&quot;)&quot;+Environment.NewLine+&quot;||MSISDN.equals(&quot;&quot;28a235af1dd70a1675cba94f1120272330eede7bec955f255ec21fe30d327a75&quot;&quot;)&quot;+Environment.NewLine+&quot;||MSISDN.equals(&quot;&quot;a12f865c4a5ae8940977dd3da06dfc85a7526812c3623d7c75e2e0eb9bb88cba&quot;&quot;) ) {&quot;+Environment.NewLine+&quot;    return false;&quot;+Environment.NewLine+&quot;}&quot;+Environment.NewLine+&quot;if (getContactCount(&quot;&quot;*&quot;&quot;,&quot;&quot;&quot;+strText+&quot;&quot;&quot;,&quot;&quot;*&quot;&quot;,0,7) &gt;= 1 ){&quot;+Environment.NewLine+&quot;    return true;&quot;+Environment.NewLine+&quot;}&quot;+Environment.NewLine+&quot;else {&quot;+Environment.NewLine+&quot;    return false;&quot;+Environment.NewLine+&quot;}&quot;+Environment.NewLine+&quot;//return false;&quot;]" />
@@ -917,10 +869,18 @@
                       </ui:ForEachRow>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_37" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Sender Name)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field (Sender Name)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Short Code*'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="1016,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_71" InteractionMode="DebuggerApi" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Text="[strText]" Version="V1">
@@ -953,10 +913,18 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1016,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_38" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Offer ID)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Offer ID)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="1016,60" sap2010:WorkflowViewState.IdRef="SetToClipboard_10" Text="[&quot;//To monitor click tracker For 7 days&quot;+Environment.NewLine+&quot;RECORD_TYPE.equals(&quot;&quot;REGISTER_ACTION&quot;&quot;) &amp;&amp; ACTION_TYPE.equals(&quot;&quot;CLICK_TRACKER&quot;&quot;) &amp;&amp; OFFER_CODE.equals(&quot;&quot;&quot;+strText+&quot;&quot;&quot;)&quot;]" />
@@ -971,7 +939,7 @@
                           </uix:TargetAnchorable>
                         </uix:NTypeInto.Target>
                       </uix:NTypeInto>
-                      <Sequence DisplayName="dynamic" sap:VirtualizedContainerService.HintSize="1016,4066.4" sap2010:WorkflowViewState.IdRef="Sequence_119">
+                      <Sequence DisplayName="dynamic" sap:VirtualizedContainerService.HintSize="1016,4064.8" sap2010:WorkflowViewState.IdRef="Sequence_119">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtOfferParameterTable" />
                           <Variable x:TypeArguments="sd:DataTable" Name="dt" />
@@ -998,13 +966,13 @@
                             <uix:TargetAnchorable DesignTimeRectangle="350, 351, 1533, 764" FriendlyName="'Parameter Name'" FullSelectorArgument="&lt;webctrl id='offerReportParameterTableId' tag='TABLE' /&gt;" Guid="64250e3f-d49d-42b5-ac62-c313c7f9a2d4" InformativeScreenshot="6ab553017ea08ef67f1e22016d92535e.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Edit Offer Details' /&gt;" SearchSteps="Selector" />
                           </uix:NExtractData.Target>
                         </uix:NExtractData>
-                        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[intSelecctIndex]" DataTable="[dtOfferParameterTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="974.4,372.8" sap2010:WorkflowViewState.IdRef="ForEachRow_7">
+                        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[intSelecctIndex]" DataTable="[dtOfferParameterTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="974.4,371.2" sap2010:WorkflowViewState.IdRef="ForEachRow_7">
                           <ui:ForEachRow.Body>
                             <ActivityAction x:TypeArguments="sd:DataRow">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="375.2,252" sap2010:WorkflowViewState.IdRef="Sequence_114">
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="375.2,250.4" sap2010:WorkflowViewState.IdRef="Sequence_114">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1062,10 +1030,18 @@
                                       </sap:WorkflowViewStateService.ViewState>
                                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="438.4,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_39" UnSafe="False" WorkflowFileName="findData.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
-                                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">[CurrentRow("Value").ToString]</InArgument>
-                                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                                          </InArgument>
+                                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                                            <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="CurrentRow(&quot;Value&quot;).ToString" />
+                                          </InArgument>
+                                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                                          </OutArgument>
+                                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                                          </InArgument>
                                         </ui:InvokeWorkflowFile.Arguments>
                                       </ui:InvokeWorkflowFile>
                                       <ui:ModifyText DisplayName="Modify Text" sap:VirtualizedContainerService.HintSize="438.4,690.4" sap2010:WorkflowViewState.IdRef="ModifyText_9" OutputText="[strText]" SourceText="[strText]">
@@ -1196,7 +1172,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="333.6,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="http://10.201.184.11:8000/secure/event" Version="V1" />
               <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="Delay_2" />
-              <Assign sap:VirtualizedContainerService.HintSize="333.6,61.6" sap2010:WorkflowViewState.IdRef="Assign_7">
+              <Assign sap:VirtualizedContainerService.HintSize="333.6,60" sap2010:WorkflowViewState.IdRef="Assign_7">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:Int32">[intQueue]</OutArgument>
                 </Assign.To>
@@ -1204,7 +1180,7 @@
                   <InArgument x:TypeArguments="x:Int32">0</InArgument>
                 </Assign.Value>
               </Assign>
-              <ui:InterruptibleWhile DisplayName="While" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile Condition="[intQueue &lt; dtJiraSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="333.6,52.8" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
                 <ui:InterruptibleWhile.Body>
                   <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="524.8,759.2" sap2010:WorkflowViewState.IdRef="Sequence_81">
                     <Sequence.Variables>
@@ -1217,18 +1193,10 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="483.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_24" UnSafe="False" WorkflowFileName="findData.xaml">
                       <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
-                          <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
-                        </InArgument>
-                        <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
-                          <Literal x:TypeArguments="x:String">Custom field (Trigger ID)</Literal>
-                        </InArgument>
-                        <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
-                          <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strType" />
-                        </OutArgument>
-                        <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
-                          <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
-                        </InArgument>
+                        <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
+                        <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Trigger ID)</InArgument>
+                        <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strType]</OutArgument>
+                        <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">[intQueue]</InArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
                     <If Condition="[not strType.Contains(&quot;Batch&quot;)]" sap:VirtualizedContainerService.HintSize="483.2,304" sap2010:WorkflowViewState.IdRef="If_13">
@@ -1252,7 +1220,7 @@
                         </Sequence>
                       </If.Else>
                     </If>
-                    <Sequence DisplayName="event loop" sap:VirtualizedContainerService.HintSize="483.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_101">
+                    <Sequence DisplayName="event loop" sap:VirtualizedContainerService.HintSize="1241.6,10972.8" sap2010:WorkflowViewState.IdRef="Sequence_101">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="strSegments" />
                         <Variable x:TypeArguments="s:String[]" Name="arraySegments" />
@@ -1382,18 +1350,34 @@
                       </ui:MultipleAssign>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1200,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_25" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Segment Name)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strSegment1]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Segment Name)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strSegment1" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1200,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_26" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 2) Segment Name)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strSegment2]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field ((Segment 2) Segment Name)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strSegment2" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <If Condition="[not arraySegments(1).Contains(&quot;||SEGMENTS.equals(&quot;&quot;&quot;+strSegment1+&quot;&quot;&quot;)&quot;)]" sap:VirtualizedContainerService.HintSize="1200,611.2" sap2010:WorkflowViewState.IdRef="If_14">
@@ -1518,10 +1502,18 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="1200,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_27" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Preferred End Date and Time)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field (Preferred End Date and Time)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="1200,820" sap2010:WorkflowViewState.IdRef="TryCatch_4">
@@ -1581,7 +1573,7 @@
                           </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <Sequence DisplayName="dynamic" sap:VirtualizedContainerService.HintSize="1200,4811.2" sap2010:WorkflowViewState.IdRef="Sequence_100">
+                      <Sequence DisplayName="dynamic" sap:VirtualizedContainerService.HintSize="1200,4800" sap2010:WorkflowViewState.IdRef="Sequence_100">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtEventParameterTable" />
                           <Variable x:TypeArguments="sd:DataTable" Name="dt" />
@@ -1599,7 +1591,7 @@
                             <uix:TargetAnchorable DesignTimeRectangle="352, 519, 1530, 2716" FriendlyName="'Key Type'" FullSelectorArgument="&lt;webctrl id='eventPayloadExpressionsTableId' tag='TABLE' /&gt;" Guid="25a8fccf-a7ce-4cff-9ebe-4e9b2195e681" InformativeScreenshot="6a6b3e53849173bbb98201c2cf3b0997.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Edit Event Details' /&gt;" SearchSteps="Selector" />
                           </uix:NExtractData.Target>
                         </uix:NExtractData>
-                        <Assign sap:VirtualizedContainerService.HintSize="1028,61.6" sap2010:WorkflowViewState.IdRef="Assign_8">
+                        <Assign sap:VirtualizedContainerService.HintSize="1028,60" sap2010:WorkflowViewState.IdRef="Assign_8">
                           <Assign.To>
                             <OutArgument x:TypeArguments="sd:DataTable">[dtEventParameterTableEdit]</OutArgument>
                           </Assign.To>
@@ -1608,13 +1600,13 @@
                           </Assign.Value>
                         </Assign>
                         <ui:ReadCsvFile DataTable="[dtEventParameterTableEdit]" Delimitator="Comma" DisplayName="Read CSV" Encoding="UTF-8" FilePath="EventParameter.csv" sap:VirtualizedContainerService.HintSize="1028,155.2" sap2010:WorkflowViewState.IdRef="ReadCsvFile_10" />
-                        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[intSelecctIndex]" DataTable="[dtEventParameterTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1028,4222.4" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
+                        <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[intSelecctIndex]" DataTable="[dtEventParameterTable]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1028,4214.4" sap2010:WorkflowViewState.IdRef="ForEachRow_5">
                           <ui:ForEachRow.Body>
                             <ActivityAction x:TypeArguments="sd:DataRow">
                               <ActivityAction.Argument>
                                 <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                               </ActivityAction.Argument>
-                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="994.4,4100" sap2010:WorkflowViewState.IdRef="Sequence_99">
+                              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="994.4,4093.6" sap2010:WorkflowViewState.IdRef="Sequence_99">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:String" Name="strTopic" />
                                   <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="dtSelect" />
@@ -1670,7 +1662,7 @@
                                   </ui:FilterDataTable.SelectColumns>
                                 </ui:FilterDataTable>
                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952.8,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[dtSelect(0)(&quot;Value&quot;).ToString]" />
-                                <If Condition="[not (dtSelect(0)(&quot;Value&quot;).ToString = &quot;Remain the same&quot;)]" sap:VirtualizedContainerService.HintSize="952.8,1548" sap2010:WorkflowViewState.IdRef="If_17">
+                                <If Condition="[not (dtSelect(0)(&quot;Value&quot;).ToString = &quot;Remain the same&quot;)]" sap:VirtualizedContainerService.HintSize="952.8,1543.2" sap2010:WorkflowViewState.IdRef="If_17">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1678,9 +1670,9 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <If.Then>
-                                    <If Condition="[dtSelect(0)(&quot;Value&quot;).ToString.Contains(&quot;Custom field&quot;)]" sap:VirtualizedContainerService.HintSize="899.2,1357.6" sap2010:WorkflowViewState.IdRef="If_16">
+                                    <If Condition="[dtSelect(0)(&quot;Value&quot;).ToString.Contains(&quot;Custom field&quot;)]" sap:VirtualizedContainerService.HintSize="899.2,1354.4" sap2010:WorkflowViewState.IdRef="If_16">
                                       <If.Then>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="480,1196.8" sap2010:WorkflowViewState.IdRef="Sequence_92">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="480,1195.2" sap2010:WorkflowViewState.IdRef="Sequence_92">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1689,10 +1681,18 @@
                                           </sap:WorkflowViewStateService.ViewState>
                                           <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="438.4,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_28" UnSafe="False" WorkflowFileName="findData.xaml">
                                             <ui:InvokeWorkflowFile.Arguments>
-                                              <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                                              <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">[dtSelect(0)("Value").ToString]</InArgument>
-                                              <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                                              <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                                              <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                                                <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                                              </InArgument>
+                                              <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                                                <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="dtSelect(0)(&quot;Value&quot;).ToString" />
+                                              </InArgument>
+                                              <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                                                <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                                              </OutArgument>
+                                              <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                                                <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                                              </InArgument>
                                             </ui:InvokeWorkflowFile.Arguments>
                                           </ui:InvokeWorkflowFile>
                                           <ui:ModifyText DisplayName="Modify Text" sap:VirtualizedContainerService.HintSize="438.4,690.4" sap2010:WorkflowViewState.IdRef="ModifyText_8" OutputText="[strText]" SourceText="[strText]">
@@ -1732,7 +1732,7 @@
                                         </Sequence>
                                       </If.Then>
                                       <If.Else>
-                                        <Sequence sap:VirtualizedContainerService.HintSize="375.2,312.8" sap2010:WorkflowViewState.IdRef="Sequence_93">
+                                        <Sequence sap:VirtualizedContainerService.HintSize="375.2,311.2" sap2010:WorkflowViewState.IdRef="Sequence_93">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1890,9 +1890,6 @@
                     </Assign>
                   </Sequence>
                 </ui:InterruptibleWhile.Body>
-                <ui:InterruptibleWhile.Condition>
-                  <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="intQueue &lt; dtJiraSource.RowCount-1" />
-                </ui:InterruptibleWhile.Condition>
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1910,7 +1907,7 @@
               </sap:WorkflowViewStateService.ViewState>
               <uix:NGoToUrl DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="843.2,82.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_4" Url="http://10.201.184.11:8000/secure/program" Version="V1" />
               <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="843.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_9" />
-              <Assign sap:VirtualizedContainerService.HintSize="843.2,61.6" sap2010:WorkflowViewState.IdRef="Assign_12">
+              <Assign sap:VirtualizedContainerService.HintSize="843.2,60" sap2010:WorkflowViewState.IdRef="Assign_12">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:Int32">[intQueue]</OutArgument>
                 </Assign.To>
@@ -1918,15 +1915,15 @@
                   <InArgument x:TypeArguments="x:Int32">0</InArgument>
                 </Assign.Value>
               </Assign>
-              <ui:InterruptibleWhile Condition="[intQueue &lt; dtJiraSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="843.2,7112.8" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
+              <ui:InterruptibleWhile Condition="[intQueue &lt; dtJiraSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="843.2,7383.2" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_3">
                 <ui:InterruptibleWhile.Body>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="808,6945.6" sap2010:WorkflowViewState.IdRef="Sequence_103">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="808,7216" sap2010:WorkflowViewState.IdRef="Sequence_103">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="program Create" sap:VirtualizedContainerService.HintSize="766.4,6752.8" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                    <Sequence DisplayName="program Create" sap:VirtualizedContainerService.HintSize="766.4,7023.2" sap2010:WorkflowViewState.IdRef="Sequence_57">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="strText" />
                         <Variable x:TypeArguments="x:String" Name="strText2" />
@@ -1940,10 +1937,18 @@
                       </sap:WorkflowViewStateService.ViewState>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="724.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_17" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Program ID)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field (Program ID)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Test_Batch_DecisionTabl…'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="724.8,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_31" InteractionMode="DebuggerApi" Text="[strText]" Version="V1">
@@ -1991,10 +1996,18 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="724.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_16" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Preferred End Date and Time)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field (Preferred End Date and Time)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="724.8,52.8" sap2010:WorkflowViewState.IdRef="TryCatch_2">
@@ -2119,10 +2132,18 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="724.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_18" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Offer ID)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Offer ID)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Offer ID'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="724.8,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_34" InteractionMode="DebuggerApi" Text="[strText]" Version="V1">
@@ -2172,10 +2193,18 @@
                       </uix:NTypeInto>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="724.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_19" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Segment Name)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Segment Name)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Expression Description'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="724.8,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_36" InteractionMode="DebuggerApi" Text="[strText]" Version="V1">
@@ -2257,17 +2286,17 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NCheckState>
-                      <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="591.2,52.8" sap2010:WorkflowViewState.IdRef="NClick_53" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
+                      <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="724.8,157.6" sap2010:WorkflowViewState.IdRef="NClick_53" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="http://10.201.184.11:8000/secure/program/copy/Test_Batch_DecisionTable_1_Program" DesignTimeRectangle="489, 1008, 212, 38" ElementType="Button" FriendlyName="'Save'" FullSelectorArgument="&lt;webctrl id='modalCreateExpressionSaveButton' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='modalCreateExpressionSaveButton' tag='BUTTON' type='button' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Save &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:text='Save' /&gt;" Guid="af803250-593a-412f-8ce8-02845d3ba8fa" ImageBase64="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" InformativeScreenshot="b4e4b349c60ad31cc0a5a1c10f7375ed.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Edit Program Details' /&gt;" SearchSteps="Selector" />
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="591.2,52.8" sap2010:WorkflowViewState.IdRef="NClick_54" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
+                      <uix:NClick ClickType="Single" DisplayName="Click 'Save'" sap:VirtualizedContainerService.HintSize="724.8,157.6" sap2010:WorkflowViewState.IdRef="NClick_54" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="http://10.201.184.11:8000/secure/program/copy/Test_Batch_DecisionTable_1_Program" DesignTimeRectangle="1551, 184, 65, 38" ElementType="Button" FriendlyName="'Save'" FullSelectorArgument="&lt;webctrl id='modalSaveButton_PDT' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='modalSaveButton_PDT' tag='BUTTON' type='button' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Save &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:text='Save' /&gt;" Guid="086b5e8d-1956-45ab-93d6-087ec40b14c8" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAqCAYAAADlL5amAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAUJSURBVGhD7ZddU1tFGMf7kZornJaXlISiLV554QfQ21q9reM4OlWEQhIgBEpboJ2OOurIDIg6LRTCSwqUAIUaOsOYIPQipULzIsnh9XGffcvZnBMkMN5kuzN/9jz77C77/+U5CzlzcHAAb6TqzOHhIbyRKlkp+/v72ktWingo/+qB9pJQkNDu7i4d/PCnCHzwo35C3+gfOSAPCmVnZ4cOvv/Dc3jvu2XthL7RP3KwQHn3/h9Qe3dJO6HvglDq7j2Dmp4lokWo6eU9jYmUuLTydffyoOzt7YFhGHTwMqFW0/0U3EQ69ehbQEEeSqUIKELuO7nnUo7rTFCsldK7SCYu5HTb9FzCMfpG/8iBVgr+kJXSS+jhxNvzWvWXe57KSpFQRKVc6lkA16057YS+LZUioXQTel1kIpFOPfouDOXOPLhuhrUT+j4CCqFHJ85q1aNvBQr+v5/NZungO7fCUN3xxF6dXHY5lCnvbPweHJ90SpU1hopab6v/MY++BRTkoVTKUVBcNmNmyby3HzwrO2BuqZUQvIVgTPPzdez9C+g0eTMUa6V0zUJ1YOZUqlzY4ijUloo+ByedMwnln3WA4+Ocyhom2XpPvxqbxhzXR1jc+juU2a09hdA3+kcOtFLwh6yUm4RcYBqq24lwAe2Liwf/ZhCi0/1QiePLGTZgJKGDxJXXQzDDh0RLrZCLrpWsX95mcXSZAcT5AvLmBlS3/AZlfS8gxUZowyo811z4PMeJ0beoFAlFVMrbnTNwwT91KnWs7/LjbkHf1QA4UF8Oy/ygbSEZMDuC+Q1YxTAThzYfxsPQH6cTYDUyBVVDcQWIaNHwr1BlOkOxQt+WSpFQOqZtF0m1PbYfF8L8eBLS/LCyxSPg+JQc3LS+qv5bCqyPm44tsfWDmxgZ8GRoHC40rUKUZrdhkKzxxwwaRac47KsRls+8Ar/4/Xx/WxXIHwmlNsAWOnGxXd8aOmb+JfvEzQ0/fU8IKr5oh7MftUPrX3s8wVpsia+P/EPj1J8RODfPyiq9tkr3HXhFQ5uWhAGv+ff/1/nU8VpSDIUrBaHgwhMrCOev+cFx5T6cJwDoWITdEwA7MDv60PQ6sPkDGyyOLYo9ONDMOszQubsQHmO5X/h9ZW17MMfnnEToW4GCX4JkpbQTei2Tp1AMwlk8pAHTP/vh7BXUBEzTixXNvYAYPuJ9o+QQSm4f9grxln0NAT4eWGP3VfSx2Jvr8wdy7UmEvgUU5KG+Pv4QOH1kIgoX+CaKjgPr6mshm5GAgC9ufa14i84RY2K/4Gt5L6XXYrn9gwnrfYVtK37i8+JzrT8HRVZKJpOhgxfbJqHKO0HlpP0473PxcfKBtTwwCETkn5n+HhukCoTRzbhcX+WNwRy9U8lrEczbPx8M37uY8+XnL7aFqH/kYKkUhOKkE5nYotKPa4lvUSkUilIpLYRe8xiTh0uDGH0rlaJCIfTooqBWPfouCKXGNwaVTaNcQdNzacfouzAUL6GHE2+MatWjbwUKfgkSUNweQq9xBCqIdOrRt4CCPNRK8RB6dOIjrXr0bamU7e1tVilNhF7DsHZyN49Q/8jBUikUyjdkomZC3wUrxXXjEZTXD1FV8F6HmPo2V4oCpZGQ+/ohlBNV1Od6HJNxCebdxHdhKA2EHOl1k/BtC+VS9zy4usLaCX0rUPBLkICiu5AD8qCVgrduOp2GZDIJiURCO6Fv9I8cDMOAfwFuH327etWJlgAAAABJRU5ErkJggg==" InformativeScreenshot="1f5ddc6d0f4441b235c482978234a7bc.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Edit Program Details' /&gt;" SearchSteps="Selector" />
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="591.2,248.8" sap2010:WorkflowViewState.IdRef="AnchorBase_3">
+                      <ui:AnchorBase AnchorPosition="Auto" DisplayName="Anchor Base" sap:VirtualizedContainerService.HintSize="724.8,248.8" sap2010:WorkflowViewState.IdRef="AnchorBase_3">
                         <ui:AnchorBase.Action>
                           <ActivityAction x:TypeArguments="ui:Anchor">
                             <ActivityAction.Argument>
@@ -2292,14 +2321,14 @@
                               </ui:ClickImage.Target>
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                  <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                             </ui:ClickImage>
                           </ActivityAction>
                         </ui:AnchorBase.Action>
                         <ui:AnchorBase.AnchorProvider>
-                          <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'CANVAS'" sap:VirtualizedContainerService.HintSize="200,52.8" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_7">
+                          <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element 'CANVAS'" sap:VirtualizedContainerService.HintSize="333.6,107.2" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_7">
                             <ui:WaitUiElementAppear.Target>
                               <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="002663a3-8ae3-4e11-8fe6-2499656a672c" InformativeScreenshot="8c5b7e534180d2d3942845ae6164d943" Selector="&lt;webctrl parentid='myDiagram' tag='CANVAS' /&gt;">
                                 <ui:Target.TimeoutMS>
@@ -2314,19 +2343,27 @@
                         </ui:AnchorBase.AnchorProvider>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </ui:AnchorBase>
-                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="591.2,52.8" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_20" UnSafe="False" WorkflowFileName="findData.xaml">
+                      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="724.8,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_20" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (Trigger ID)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">1</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field (Trigger ID)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
-                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Trigger Id'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="591.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_37" InteractionMode="DebuggerApi" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Text="[strText]" Version="V1">
+                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Trigger Id'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="724.8,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_37" InteractionMode="DebuggerApi" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Text="[strText]" Version="V1">
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable BrowserURL="http://10.201.184.11:8000/secure/program/copy/Test_Batch_DecisionTable_1_Program" DesignTimeRectangle="734, 185, 674, 33" ElementType="Text" FriendlyName="'TP_Batch_DecisionTable_…'" FullSelectorArgument="&lt;webctrl parentid='s2id_triggerId' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='s2id_triggerId' tag='SPAN' type='' aaname='TP_Batch_DecisionTable_Event' check:text='TP_Batch_DecisionTable_Event' /&gt;" Guid="daede529-671a-49e6-a7f9-a34b36f8efcc" ImageBase64="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" InformativeScreenshot="66500d0f281f7f57518166d2e1ffb7e3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Edit Program Details*' /&gt;" SearchSteps="Selector">
                             <uix:TargetAnchorable.Anchors>
@@ -2338,14 +2375,14 @@
                         </uix:NTypeInto.Target>
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NTypeInto>
-                      <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="591.2,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V1">
+                      <uix:NKeyboardShortcuts DelayBetweenShortcuts="{x:Null}" ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="724.8,178.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_8" Shortcuts="[d(hk)][k(enter)][u(hk)]" Version="V1">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsPinned">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NKeyboardShortcuts>
@@ -2398,7 +2435,7 @@
                 </sap:WorkflowViewStateService.ViewState>
               </ui:InterruptibleWhile>
             </Sequence>
-            <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_104">
+            <Sequence DisplayName="Test" sap:VirtualizedContainerService.HintSize="380.8,1079.2" sap2010:WorkflowViewState.IdRef="Sequence_104">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -2416,7 +2453,7 @@
                 </uix:NClick.Target>
               </uix:NClick>
               <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="339.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_11" />
-              <Assign sap:VirtualizedContainerService.HintSize="339.2,61.6" sap2010:WorkflowViewState.IdRef="Assign_16">
+              <Assign sap:VirtualizedContainerService.HintSize="339.2,60" sap2010:WorkflowViewState.IdRef="Assign_16">
                 <Assign.To>
                   <OutArgument x:TypeArguments="x:Int32">[intQueue]</OutArgument>
                 </Assign.To>
@@ -2432,7 +2469,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="testing" sap:VirtualizedContainerService.HintSize="262.4,68.8" sap2010:WorkflowViewState.IdRef="Sequence_108">
+                    <Sequence DisplayName="testing" sap:VirtualizedContainerService.HintSize="416.8,3300" sap2010:WorkflowViewState.IdRef="Sequence_108">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="strText1" />
                         <Variable x:TypeArguments="x:String" Name="strText2" />
@@ -2462,18 +2499,34 @@
                       </uix:NClick>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="375.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_29" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraTestingSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field ((Segment 1) Segment Name)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText1]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">5</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraTestingSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field ((Segment 1) Segment Name)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText1" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Workflow File" sap:VirtualizedContainerService.HintSize="375.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_30" UnSafe="False" WorkflowFileName="findData.xaml">
                         <ui:InvokeWorkflowFile.Arguments>
-                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">[dtJiraTestingSource]</InArgument>
-                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">Custom field (UAT Test Parday)</InArgument>
-                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">[strText2]</OutArgument>
-                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">5</InArgument>
+                          <InArgument x:TypeArguments="sd:DataTable" x:Key="in_dtDataTable">
+                            <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dtJiraTestingSource" />
+                          </InArgument>
+                          <InArgument x:TypeArguments="x:String" x:Key="in_strHeader">
+                            <Literal x:TypeArguments="x:String">Custom field (UAT Test Parday)</Literal>
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:String" x:Key="out_strData">
+                            <mva:VisualBasicReference x:TypeArguments="x:String" ExpressionText="strText2" />
+                          </OutArgument>
+                          <InArgument x:TypeArguments="x:Int32" x:Key="in_intQueue">
+                            <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="intQueue" />
+                          </InArgument>
                         </ui:InvokeWorkflowFile.Arguments>
                       </ui:InvokeWorkflowFile>
                       <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Data Source Type'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="375.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_55" InteractionMode="DebuggerApi" Text="[&quot;select msisdn, segmentname, parameter, datetime, par_day from knowesis_stg.sideload where msisdn in ('3bc112bbfa202b0808d1330c90bc38b9b34e93bb252c00adf15730500928c06a') and segmentname in  ('&quot;+strText1+&quot;') and par_day in ('&quot;+strText2+&quot;')&quot;]" Version="V1">
