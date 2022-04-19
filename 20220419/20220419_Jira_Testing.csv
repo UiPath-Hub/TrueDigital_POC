@@ -1,0 +1,80 @@
+Issue key,Issue id,Custom field (Preferred Date),Custom field (Preferred End Date and Time),Summary,Status,Assignee,Assignee Id,Custom field (Campaign Responsible Person),Custom field (Campaign Responsible Person)Id,Custom field ((Segment 1) Offer ID),Custom field ((Segment 1) Offer ID),Custom field ((Segment 2) Offer ID),Custom field ((Segment 3) Offer ID),Custom field ((Segment 4) Offer ID),Custom field (UAT Test Parday),Custom field (Trigger ID),Custom field (Trigger ID),Custom field (Program ID),Custom field (Program ID),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 2) SMS message + URL),Custom field ((Offer 3) SMS message + URL),Custom field ((Offer 4) SMS message + URL),Custom field ((Segment 1) Segment Name),Custom field ((Segment 1) Segment Name),Custom field ((Segment 2) Segment Name),Custom field ((Segment 3) Segment Name),Custom field ((Segment 4) Segment Name),Custom field ((Segment 1) Target Logic and Segment Size),Custom field ((Segment 2) Target Logic and Segment Size),Custom field ((Segment 3) Target Logic and Segment Size),Custom field ((Segment 4) Target Logic and Segment Size),Custom field (Campaign Type),Custom field (Offer Type),Custom field (Product Offer),Custom field (Client Group - Client Name),Custom field (Client Type),Custom field (Industry),Custom field (Campaign Objective),Custom field (Sender Name)
+APC-2270,474254,24/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High 2,3- Apr 22 (Q2)",Campaign Testing,Tanawin Jirarochthitinun,61693118289a54006ab43844,Anucha Soipha,607d32cccbff1b0070d60c5a,Model_AIA_Q2_High_2_A_Offer,,Model_AIA_Q2_High_3_A_Offer,Model_AIA_Q2_High_3_B_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,AIA ชวนคุณมาฟิตแอนด์เฟิร์ม รับเลย! เครื่องชั่งน้ำหนักอัจฉริยะ Mi เพียงลงทะเบียนบนเว็บไซต์ และซื้อแบบประกันที่ร่วมรายการ ด่วน! จำนวนจำกัด คลิก ((https://www.aia.co.th/th/campaigns/tr/stay-fit.html?bannerID=SMS_Q2&cmpid=thdm-q2stayfit-34)),,AIA ชวนคุณมาฟิตแอนด์เฟิร์ม รับเลย! เครื่องชั่งน้ำหนักอัจฉริยะ Mi เพียงลงทะเบียนบนเว็บไซต์ และซื้อแบบประกันที่ร่วมรายการ ด่วน! จำนวนจำกัด คลิก ((https://www.aia.co.th/th/campaigns/tr/stay-fit.html?bannerID=SMS_Q2&cmpid=thdm-q2stayfit-35)),รับเลย! เครื่องชั่งน้ำหนักอัจฉริยะ Mi เพียงลงทะเบียนบนเว็บไซต์ และซื้อแบบประกัน AIA ที่ร่วมรายการ ด่วน! จำนวนจำกัด คลิก ((https://www.aia.co.th/th/campaigns/tr/stay-fit.html?bannerID=SMS_Q2&cmpid=thdm-q2stayfit-44)),,Model_AIA_Q2_High_2_A,,Model_AIA_Q2_High_3_A,Model_AIA_Q2_High_3_B,,"Segment 1 - High 2 - Q2 stay fit
+- Data table will provided from K.Pat to P'Kul
+- Product  Q2 stay fit
+
+
+SMS size - 150,000","Segment 2 - High 3 - Q2 stay fit - message A (benefit lead-in)
+- Data table will provided from K.Pat to P'Kul
+- Product  Q2 stay fit
+
+
+SMS size - 250,000","Segment 3 - High 3 - Q2 stay fit - message B (incentive lead-in)
+- Data table will provided from K.Pat to P'Kul
+- Product  Q2 stay fit
+
+
+SMS size - 250,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2269,474251,24/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High1,2,3- Apr 22 (Icancer,TP)",Campaign Testing,Tanawin Jirarochthitinun,61693118289a54006ab43844,Anucha Soipha,607d32cccbff1b0070d60c5a,Model_AIA_IC_High_3_D_Offer,,Model_AIA_Promo_High_1_A_Offer,Model_AIA_Promo_High_2_A_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,ซื้อประกันมะเร็ง AIA iCancer คุ้มครองมะเร็งทุกระยะ เป็นก็ได้เงิน ไม่เป็นก็มีเงินคืน จ่ายเบี้ยเริ่มต้นเพียงวันละ 3บ. สนใจ คลิก! ((https://www.aia.co.th/th/our-products/digital-products/icancer.html?bannerID=TDGSM&cmpid=thdm-ddp-12)),,"โอกาสดีที่สุดในการซื้อประกัน AIA มอบคะแนนทรูพอยท์ 1,000 คะแนน!! เมื่อลงทะเบียนผ่านเว็บไซต์และซื้อแบบประกันที่ร่วมรายการ ด่วน! สิทธิมีจำกัด คลิกเลย! ((https://www.aia.co.th/th/campaigns/tr/1k-tp.html?bannerID=SMS_TP&cmpid=thdm-omega-1105))","โอกาสดีที่สุดในการซื้อประกัน AIA มอบคะแนนทรูพอยท์ 1,000 คะแนน!! เมื่อลงทะเบียนผ่านเว็บไซต์และซื้อแบบประกันที่ร่วมรายการ ด่วน! สิทธิมีจำกัด คลิกเลย! ((https://www.aia.co.th/th/campaigns/tr/1k-tp.html?bannerID=SMS_TP&cmpid=thdm-omega-1106))",,Model_AIA_IC_High_3_D,,Model_AIA_Promo_High_1_A,Model_AIA_Promo_High_2_A,,"Segment 1 - High 3 - 20-55 iCancer
+- Data table will provided from K.Pat to P'Kul
+- Product   iCancer
+
+
+SMS size - 500,000","Segment 2 - High 1 - 1,000 TP
+- Data table will provided from K.Pat to P'Kul
+- Product  1,000 TP
+
+
+SMS size -  300,000","Segment 3 - High 2 - 1,000 TP
+- Data table will provided from K.Pat to P'Kul
+- Product  1,000 TP
+
+
+SMS size -  150,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2149,468567,24/Apr/22 12:00 AM,,[Campaign - Batch] Shopee - Shopee - Shopee Payday Revisit (Apr 22),Campaign Testing,Prinyapat Kiatbampen,5fdad3694d2179006ef3c9e7,Jakrapan Mongkolthanarak,6180e09f327da400698e13fa,Shopee_Revisit_Payday_Offer,,,,,,Ecommerce_Shopee_Trigger,,Ecommerce_Shopee_Program,,แจกคูปองส่วนลดเฉพาะลูกค้าทรู คลิก! ((https://shp.ee/htvezef)) พร้อมช้อปสุดคุ้ม กับ Shopee Payday และ โค้ดลดเพิ่ม 50%,,,,,,,,,,"- those people who clicked from Shopee SMS campaign in the past
+
+SMS size Max ",,,,Awareness,Informative,E-Commerce - Promo,Shopee - Shopee,External (Affiliate Model),E-Commerce,To gain commission as a revenue per completed order,ShopeeDeals
+APC-2293,475443,23/Apr/22 12:00 AM,,[Campaign - Batch] Food & Beverage - IoT Vending Machine - MDS Event - 202204111130,Campaign Testing,,,Jakrapan Mongkolthanarak,6180e09f327da400698e13fa,Bul_iot_vending_machine_MDSEvent_APC2293_Offername1_Offer,,,,,,Bul_food_beverage_iot_vending_machine_MDSEvent_APC2293_Trigger,,Bul_iot_vending_machine_MDSEvent_APC2293_Program,,ห้ามพลาด! พบกูรูในอุตสาหกรรมหลัก สุขภาพ อสังหาริมทรัพย์ และหุ่นยนต์ ในงาน MDS Thailand 2022 สัมมนาออนไลน์ด้านเทคโนโลยีดิจิทัลและ Metaverse 26 เม.ย.นี้! สมัครเลย ((https://forms.gle/Ywn6uHwC59QbCnoR8)),,,,,Bul_food_beverage_iot_vending_machine_MDSEvent_APC2293_Program_1649690090000,,,,,,,,,Campaign - Batch,Informative,Information & Communication Technology ICT,IoT Vending Machine,Internal,Food & Beverage,To create awareness of Metaverse & Digital Solutions Thailand 2022 (MDS) event,True
+APC-2263,474117,23/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High 3 Apr 22 (GIWL,TP)",Campaign Testing,Tanawin Jirarochthitinun,61693118289a54006ab43844,Anucha Soipha,607d32cccbff1b0070d60c5a,Model_AIA_GIWL_High_3_B_Offer,,Model_AIA_Promo_High_3_A_Offer,Model_AIA_Promo_High_3_B_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,ซื้อประกันชีวิตอาวุโสOK จาก AIA ให้พ่อแม่ ไม่ต้องตรวจสุขภาพ จ่ายเบี้ยเริ่มต้นเพียงวันละ 6บ. คุ้มครองชีวิตสูงสุด2แสนบาท สนใจ คลิก ((https://campaigns.aia.co.th/aia-dm/gi/tr/gi-t-50TP-noemail-popup.html?bannerID=SMS_GI-Benefit&cmpid=thdm-omega-1101)),,"โอกาสดีที่สุดในการซื้อประกัน AIA มอบคะแนนทรูพอยท์ 1,000 คะแนน!! เมื่อลงทะเบียนผ่านเว็บไซต์และซื้อแบบประกันที่ร่วมรายการ ด่วน! สิทธิมีจำกัด คลิกเลย! ((https://www.aia.co.th/th/campaigns/tr/1k-tp.html?bannerID=SMS_TP&cmpid=thdm-omega-1102))","โอกาสดีที่สุดในการซื้อประกัน AIA มอบคะแนนทรูพอยท์ 1,000 คะแนน!! เมื่อลงทะเบียนผ่านเว็บไซต์และซื้อแบบประกันที่ร่วมรายการ ด่วน! สิทธิมีจำกัด คลิกเลย! ((https://www.aia.co.th/th/campaigns/tr/1k-tp.html?bannerID=SMS_TP&cmpid=thdm-omega-1103))",,Model_AIA_GIWL_High_3_B,,Model_AIA_Promo_High_3_A,Model_AIA_Promo_High_3_B,,"Segment 1 - High 3 - 20-49 GIWL - 50TP / no email / pop up LDP - weekend
+- Data table will provided from K.Pat to P'Kul
+- Product  GIWL
+
+
+SMS size -  500,000","Segment 2 - High 3 - 20-49 - 1,000 TP
+- Data table will provided from K.Pat to P'Kul
+- Product  1,000 TP
+
+
+SMS size -  500,000","Segment 3 - High 3 - 50-70 - 1,000 TP
+- Data table will provided from K.Pat to P'Kul
+- Product  1,000 TP
+
+
+SMS size -  500,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2262,474102,22/Apr/22 12:00 AM,,"[Campaign - Batch] AIA - AIA - AIA-Model-High1,2- Apr 22 (GIWL,HH)",Campaign Testing,Tanawin Jirarochthitinun,61693118289a54006ab43844,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Model_AIA_GIWL_High_1_A_Offer,,Model_AIA_GIWL_High_2_A_Offer,,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,ซื้อประกันชีวิตอาวุโสOK จาก AIA ให้พ่อแม่ ไม่ต้องตรวจสุขภาพ จ่ายเบี้ยเริ่มต้นเพียงวันละ 6บ. คุ้มครองชีวิตสูงสุด2แสนบาท สนใจ คลิก ((https://campaigns.aia.co.th/aia-dm/gi/tr/gi-t-50TP-noemail-popup.html?bannerID=SMS_GI-Benefit&cmpid=thdm-omega-1099)),,"ประกันสุขภาพต้อง AIA! คุ้มครองแบบเหมาจ่าย ให้ค่าห้องสูงสุดวันละ 9,000 บ. นาน 365 วัน/ปี คลิก! ((https://www.aia.co.th/th/campaigns/tr/hh-t-ldp2.html??bannerID=SMS2_RB&cmpid=thdm-omega-1098))",,,Model_AIA_GIWL_High_1_A,,Model_AIA_GIWL_High_2_A,,,"Segment 1 - High 1 - GIWL - 50TP / no email / pop up LDP
+- Data table will provided from K.Pat to P'Kul
+- Product  GIWL
+
+
+SMS size -  300,000","Segment 2 - High 1 - High 2 - Health Happy
+- Data table will provided from K.Pat to P'Kul
+- Product  Health Happy
+
+
+SMS size -  300,000",,,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2285,475140,21/Apr/22 12:00 AM,,[Campaign - Batch] Citibank - Citibank - Citi Personal Loan April 22,Campaign Testing,Prinyapat Kiatbampen,5fdad3694d2179006ef3c9e7,Chananchida Samothai,61fa6e0d8d9e3c00688f1a60,CitiPersonalLoan_PL_Base_Offer,,CitiPersonalLoan_BadProbFlag_Offer,CitiPersonalLoan_Retargeting_Offer,,,Banking_Citibank_CitiPersonalLoan_Trigger,,Banking_Citibank_CitiPersonalLoan_Program,,พิเศษสำหรับลูกค้า True! รับข้อเสนอสินเชื่อบุคคลซิตี้ ดอกเบี้ยต่ำสุด 9.99%* (25 ก.พ.– 15 พ.ค.65) เพิ่มเติมคลิก ((https://www.citibank.co.th/acquisition/true-digital/personal-loan/index.html?ecid=PATRUDLOATH849)),,พิเศษสำหรับลูกค้า True! รับข้อเสนอสินเชื่อบุคคลซิตี้ ดอกเบี้ยต่ำสุด 9.99%* (25 ก.พ.– 15 พ.ค.65) เพิ่มเติมคลิก ((https://www.citibank.co.th/acquisition/true-digital/personal-loan/index.html?ecid=PATRUDLOATH850)),พิเศษสำหรับลูกค้า True! รับข้อเสนอสินเชื่อบุคคลซิตี้ ดอกเบี้ยต่ำสุด 9.99%* (25 ก.พ.– 15 พ.ค.65) เพิ่มเติมคลิก ((https://www.citibank.co.th/acquisition/true-digital/personal-loan/index.html?ecid=PATRUDLOATH851)),,CitiPersonalLoan_PL_Base,,CitiPersonalLoan_BadProbFlag,CitiPersonalLoan_Retargeting,,"70k SMS
+
+Base profile: 
+Non Citi
+white collar
+age: 25 above
+Post Paid
+
+Segment 1: Base + Personal loan label recommended by TDG DS ","100K SMS
+Segment 2: BadProbFlag + Personal Loan label","50K - 100k  SMS *(Depending on the sizing found)
+Segment 3: Retargeting (People who clicked but didnt fill form in the past 6 months)",,Acquisition,Discount - Core Product,Banking - Credit card,Citibank - Citibank,External (Affiliate Model),Banking,Citi Bank want to acquire new customers,TrueYou
+APC-2065,460929,01/Mar/22 12:00 AM,31/Mar/22 5:00 AM,[Campaign - Batch] Other - Testing - UIPath Testing (Mar 22),Campaign Testing,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,UIPath_Test_A_Offer,,UIPath_Test_B_Offer,,,2.0220331E7,TP_Batch_DecisionTable_Event,,Test_Batch_DecisionTable_1_Program,,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,,UIPath_Test_A,,UIPath_Test_B,,,"- ThaiID
+- Age 18 - 40
+- BKK","- ThaiID
+- Age 18 - 40
+- BMR",,,Awareness,Informative,E-Commerce - Promo,Other - Testing,External (Affiliate Model),Other,Test UIPath flow,TrueID
