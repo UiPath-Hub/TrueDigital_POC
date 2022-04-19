@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="909.6,6860.8" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ucat="clr-namespace:UiPath.Core.Activities.TextModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="909.6,6965.6" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:si="clr-namespace:System.IO;assembly=mscorlib" xmlns:ucat="clr-namespace:UiPath.Core.Activities.TextModifications;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="56">
       <x:String>System.Activities</x:String>
@@ -109,7 +109,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="920,6796" sap2010:WorkflowViewState.IdRef="Sequence_4">
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="920,6900.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Default="robot" Name="strUsername" />
       <Variable x:TypeArguments="x:String" Default="password" Name="strPassword" />
@@ -318,13 +318,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:CommentOut>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="KNOWESIS_LOGIN_SCREEN" sap:VirtualizedContainerService.HintSize="878.4,6146.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="IfNotOpen" ScopeGuid="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="KNOWESIS_LOGIN_SCREEN" sap:VirtualizedContainerService.HintSize="878.4,6251.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" OpenMode="IfNotOpen" ScopeGuid="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="do" sap:VirtualizedContainerService.HintSize="844.8,5889.6" sap2010:WorkflowViewState.IdRef="Sequence_13">
+          <Sequence DisplayName="do" sap:VirtualizedContainerService.HintSize="844.8,5994.4" sap2010:WorkflowViewState.IdRef="Sequence_13">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -375,7 +375,7 @@
                 </ui:WaitUiElementAppear.Target>
               </ui:WaitUiElementAppear>
             </Sequence>
-            <Sequence DisplayName="loop" sap:VirtualizedContainerService.HintSize="803.2,5686.4" sap2010:WorkflowViewState.IdRef="Sequence_122">
+            <Sequence DisplayName="loop" sap:VirtualizedContainerService.HintSize="803.2,5791.2" sap2010:WorkflowViewState.IdRef="Sequence_122">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="strText" />
               </Sequence.Variables>
@@ -393,9 +393,9 @@
                   <InArgument x:TypeArguments="x:Int32">0</InArgument>
                 </Assign.Value>
               </Assign>
-              <ui:InterruptibleWhile Condition="[intQueue &lt; dtJiraSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="761.6,5490.4" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_6">
+              <ui:InterruptibleWhile Condition="[intQueue &lt; dtJiraSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="761.6,5595.2" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_6">
                 <ui:InterruptibleWhile.Body>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="726.4,5283.2" sap2010:WorkflowViewState.IdRef="Sequence_121">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="726.4,5388" sap2010:WorkflowViewState.IdRef="Sequence_121">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:String" Name="strType" />
                     </Sequence.Variables>
@@ -2447,7 +2447,7 @@
                         </Sequence>
                       </ui:CommentOut.Body>
                     </ui:CommentOut>
-                    <Sequence DisplayName="test loop" sap:VirtualizedContainerService.HintSize="684.8,4703.2" sap2010:WorkflowViewState.IdRef="Sequence_215">
+                    <Sequence DisplayName="test loop" sap:VirtualizedContainerService.HintSize="684.8,4808" sap2010:WorkflowViewState.IdRef="Sequence_215">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2581,9 +2581,9 @@
                           <InArgument x:TypeArguments="x:Int32">0</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <ui:InterruptibleWhile Condition="[intQueueTest &lt; dtJiraTestingSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="643.2,4264" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_13">
+                      <ui:InterruptibleWhile Condition="[intQueueTest &lt; dtJiraTestingSource.RowCount-1]" DisplayName="While" sap:VirtualizedContainerService.HintSize="643.2,4368.8" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_13">
                         <ui:InterruptibleWhile.Body>
-                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,4056.8" sap2010:WorkflowViewState.IdRef="Sequence_214">
+                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="608,4161.6" sap2010:WorkflowViewState.IdRef="Sequence_214">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2656,7 +2656,7 @@
                                 </If.Else>
                               </If>
                             </Sequence>
-                            <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="566.4,3432" sap2010:WorkflowViewState.IdRef="Sequence_213">
+                            <Sequence DisplayName="test" sap:VirtualizedContainerService.HintSize="566.4,3536.8" sap2010:WorkflowViewState.IdRef="Sequence_213">
                               <Sequence.Variables>
                                 <Variable x:TypeArguments="x:String" Name="strText1" />
                               </Sequence.Variables>
@@ -2687,7 +2687,7 @@
                                 </sap:WorkflowViewStateService.ViewState>
                               </uix:NClick>
                               <Delay Duration="00:00:03" sap:VirtualizedContainerService.HintSize="524.8,22.4" sap2010:WorkflowViewState.IdRef="Delay_28" />
-                              <Sequence DisplayName="testing" sap:VirtualizedContainerService.HintSize="524.8,2881.6" sap2010:WorkflowViewState.IdRef="Sequence_212">
+                              <Sequence DisplayName="testing" sap:VirtualizedContainerService.HintSize="524.8,2986.4" sap2010:WorkflowViewState.IdRef="Sequence_212">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:String" Name="strText2" />
                                   <Variable x:TypeArguments="s:DateTime" Name="timeCountdown" />
@@ -2871,6 +2871,7 @@
                                     <uix:TargetAnchorable BrowserURL="http://10.201.184.11:8000/secure/dataSource/edit/DATA_SOURCE_BATCH_SEGMENT_2" DesignTimeRectangle="624, 960, 222, 38" ElementType="Button" FriendlyName="'Save and Deploy'" FullSelectorArgument="&lt;webctrl id='createDeployButton_update' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl id='createDeployButton_update' tag='BUTTON' type='button' aaname=' &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;Save and Deploy &amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;&amp;#x9;' check:text='Save and Deploy' /&gt;" Guid="58acfbb2-ca73-4982-a8e1-1d0f78711b5c" ImageBase64="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" InformativeScreenshot="1e43f8b7b5e179bce8a015b7fba5a7f8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Data Sourceedit' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
                                   </uix:NClick.Target>
                                 </uix:NClick>
+                                <Delay Duration="00:03:30" sap:VirtualizedContainerService.HintSize="483.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_29" />
                                 <uix:NClick ClickType="Single" DisplayName="Click 'Status Logs'" sap:VirtualizedContainerService.HintSize="483.2,157.6" sap2010:WorkflowViewState.IdRef="NClick_204" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="http://10.201.184.11:8000/secure/dataSource" DesignTimeRectangle="1776, 631, 95, 54" ElementType="Button" FriendlyName="'Status Logs'" FullSelectorArgument="&lt;webctrl aaname='Status Logs' id='stop-DATA_SOURCE_BATCH_SEGMENT_2' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Status Logs' id='stop-DATA_SOURCE_BATCH_SEGMENT_2' tag='BUTTON' type='button' check:text='Status Logs' /&gt;" Guid="d413dea1-dd79-4bc7-ad43-4dc65fbde9f8" ImageBase64="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" InformativeScreenshot="f78b31ce49057a4ee98ed0498656d58b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Data Sourcelist' /&gt;" SearchSteps="Selector">
@@ -2887,8 +2888,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <Delay Duration="00:03:30" sap:VirtualizedContainerService.HintSize="483.2,22.4" sap2010:WorkflowViewState.IdRef="Delay_29" />
-                                <uix:NGetText DisplayName="Get Text '4/4/2022, 2:52:44'" sap:VirtualizedContainerService.HintSize="483.2,52.8" sap2010:WorkflowViewState.IdRef="NGetText_20" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
+                                <uix:NGetText DisplayName="Get Text '4/4/2022, 2:52:44'" sap:VirtualizedContainerService.HintSize="483.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_20" ScopeIdentifier="af338363-bce5-461f-89eb-6fbf2179a6dd" Version="V1">
                                   <uix:NGetText.Target>
                                     <uix:TargetAnchorable BrowserURL="http://10.201.184.11:8000/secure/dataSource" DesignTimeRectangle="361, 504, 1186, 653" FriendlyName="'4/4/2022, 2:52:44'" FullSelectorArgument="&lt;webctrl id='statusLogs' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='statusLogs' tag='DIV' type='' aaname='' /&gt;" Guid="5531c2fb-639f-4aa8-8fb8-410b8b00180d" ImageBase64="" InformativeScreenshot="c1894f5a45c6f0a6e46ca82223253d63.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Sift Portal : Data Sourcelist' /&gt;" SearchSteps="Selector" />
                                   </uix:NGetText.Target>
@@ -2897,7 +2897,7 @@
                                   </uix:NGetText.Text>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">True</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NGetText>
