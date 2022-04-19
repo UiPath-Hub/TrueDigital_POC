@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="887.2,610.4" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="test" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="928,610.4" sap2010:WorkflowViewState.IdRef="test_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
-    <scg:List x:TypeArguments="x:String" Capacity="100">
+    <scg:List x:TypeArguments="x:String" Capacity="56">
       <x:String>System.Activities</x:String>
       <x:String>System.Activities.Statements</x:String>
       <x:String>System.Activities.Expressions</x:String>
@@ -54,10 +54,13 @@
       <x:String>Microsoft.Exchange.WebServices.Data</x:String>
       <x:String>UiPath.Mail.Exchange</x:String>
       <x:String>UiPath.Mail.Exchange.Activities</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="78">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="42">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -99,25 +102,29 @@
       <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.Exchange.WebServices</AssemblyReference>
       <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="375.2,239.2" sap2010:WorkflowViewState.IdRef="Sequence_6">
+  <Sequence sap:VirtualizedContainerService.HintSize="375.2,360" sap2010:WorkflowViewState.IdRef="Sequence_6">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:DatabaseConnection" Name="dbMySQL" />
       <Variable x:TypeArguments="x:String" Default="qap;@321" Name="testttt" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtData" />
       <Variable x:TypeArguments="ss:SecureString" Name="se" />
       <Variable x:TypeArguments="sd:DataTable" Name="dtdataTest" />
+      <Variable x:TypeArguments="ss:SecureString" Name="sePasswordGmail" />
+      <Variable x:TypeArguments="x:String" Name="strUserGmail" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:SendExchangeMail ApplicationId="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" DirectoryId="{x:Null}" EmailAutodiscover="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" Password="{x:Null}" TimeoutMS="{x:Null}" AuthenticationMode="UserNameAndPassword" Body="test" DisplayName="Send Exchange Mail Message" Domain="[strDomainName]" ExchangeVersion="Exchange2007_SP1" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendExchangeMail_1" IsBodyHtml="False" IsDraft="False" SaveCopy="False" SecurePassword="[sestrEmailPassword]" Server="[strServerMail]" Subject="test" To="jobhowtoo@gmail.com" User="[strEmailUserName]">
-      <ui:SendExchangeMail.Files>
-        <InArgument x:TypeArguments="x:String">[in_CONFIG("strErrorImgPath").ToString]</InArgument>
-      </ui:SendExchangeMail.Files>
-    </ui:SendExchangeMail>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="apiruthGmail" DisplayName="Get Credential" sap:VirtualizedContainerService.HintSize="333.6,80.8" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[sePasswordGmail]" Username="[strUserGmail]" />
+    <ui:SendMail Bcc="{x:Null}" Cc="{x:Null}" From="{x:Null}" MailMessage="{x:Null}" Name="{x:Null}" Password="{x:Null}" ReplyTo="{x:Null}" TimeoutMS="{x:Null}" Body="test" DisplayName="Send SMTP Mail Message" Email="[strUserGmail]" EnableSSL="True" sap:VirtualizedContainerService.HintSize="333.6,146.4" sap2010:WorkflowViewState.IdRef="SendMail_1" IsBodyHtml="False" Port="465" SecureConnection="Auto" SecurePassword="[sePasswordGmail]" Server="smtp.gmail.com" Subject="email test" To="apiruthss@gmail.com">
+      <ui:SendMail.Files>
+        <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
+      </ui:SendMail.Files>
+    </ui:SendMail>
   </Sequence>
 </Activity>
