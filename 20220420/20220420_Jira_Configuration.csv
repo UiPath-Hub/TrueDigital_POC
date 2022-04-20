@@ -1,0 +1,22 @@
+Issue key,Issue id,Custom field (Preferred Date),Custom field (Preferred End Date and Time),Summary,Status,Assignee,Assignee Id,Custom field (Campaign Responsible Person),Custom field (Campaign Responsible Person)Id,Custom field ((Segment 1) Offer ID),Custom field ((Segment 1) Offer ID),Custom field ((Segment 2) Offer ID),Custom field ((Segment 3) Offer ID),Custom field ((Segment 4) Offer ID),Custom field (UAT Test Parday),Custom field (Trigger ID),Custom field (Trigger ID),Custom field (Program ID),Custom field (Program ID),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 1) SMS message + URL),Custom field ((Offer 2) SMS message + URL),Custom field ((Offer 3) SMS message + URL),Custom field ((Offer 4) SMS message + URL),Custom field ((Segment 1) Segment Name),Custom field ((Segment 1) Segment Name),Custom field ((Segment 2) Segment Name),Custom field ((Segment 3) Segment Name),Custom field ((Segment 4) Segment Name),Custom field ((Segment 1) Target Logic and Segment Size),Custom field ((Segment 2) Target Logic and Segment Size),Custom field ((Segment 3) Target Logic and Segment Size),Custom field ((Segment 4) Target Logic and Segment Size),Custom field (Campaign Type),Custom field (Offer Type),Custom field (Product Offer),Custom field (Client Group - Client Name),Custom field (Client Type),Custom field (Industry),Custom field (Campaign Objective),Custom field (Sender Name)
+APC-2287,475192,24/4/2022 0:00,,[Campaign - Batch] AIA - AIA - AIA-Model-High 3- Apr 22 (Icancer),Campaign Configuration,Tanawin Jirarochthitinun,61693118289a54006ab43844,Anucha Soipha,607d32cccbff1b0070d60c5a,Model_AIA_IC_High_3_A_Offer,,Model_AIA_IC_High_3_B_Offer,Model_AIA_IC_High_3_C_Offer,,,Insurance_Model_AIA_Trigger,,Insurance_Model_AIA_Program,,ซื้อประกันมะเร็ง AIA iCancer คุ้มครองมะเร็งทุกระยะ เป็นก็ได้เงิน ไม่เป็นก็มีเงินคืน จ่ายเบี้ยเริ่มต้นเพียงวันละ 3บ. สนใจ คลิก!  ((https://www.aia.co.th/th/our-products/digital-products/icancer_button.html?bannerID=TDGSM&cmpid=thdm-ddp-14)),,"ซื้อประกันมะเร็ง AIA iCancer คุ้มครองมะเร็งทุกระยะ เป็นก็ได้เงิน ไม่เป็นก็มีเงินคืน จ่ายเบี้ยเริ่มต้นเพียงวันละ 3บ. สนใจ คลิก!	((https://www.aia.co.th/th/our-products/digital-products/icancer_popup.html?bannerID=TDGSM&cmpid=thdm-ddp-15))",ซื้อประกันมะเร็ง AIA iCancer คุ้มครองมะเร็งทุกระยะ เป็นก็ได้เงิน ไม่เป็นก็มีเงินคืน จ่ายเบี้ยเริ่มต้นเพียงวันละ 3บ. สนใจ คลิก! ((https://www.aia.co.th/th/our-products/digital-products/icancer_simplify.html?bannerID=TDGSM&cmpid=thdm-ddp-16)),,Model_AIA_IC_High_3_A,,Model_AIA_IC_High_3_B,Model_AIA_IC_High_3_C,,"Segment 1 - High 3 - 20-55 iCancer (test - button click)
+- Data table will provided from K.Pat to P'Kul
+- Product   iCancer
+
+
+SMS size - 125,000","Segment 2 - High 3 - 20-55 iCancer (test - popup lead form)
+- Data table will provided from K.Pat to P'Kul
+- Product   iCancer
+
+
+SMS size - 125,000","Segment 3 - High 3 - 20-55 iCancer (test - simplify LDP)
+- Data table will provided from K.Pat to P'Kul
+- Product   iCancer
+
+
+SMS size - 125,000",,Lead Generation,Informative,Insurance - Life,AIA - AIA,External (Project Value >=100K),Insurance,AIA wants to acquire leads for April,AIA
+APC-2298,475654,1/3/2022 0:00,31/3/2022 5:00,[Campaign - Batch] Other - Testing - UIPath Testing (Mar 22) - Create Program,Campaign Configuration,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,Radamanee Assavasuwanitkun,5d6cf158c7002d0d9dc28fd1,UIPath_Test_C_Offer,,UIPath_Test_D_Offer,,,2.02E+07,TP_Batch_DecisionTable_2_Event,,Test_Batch_DecisionTable_2_Program,,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,"""TEST ฟังเพลงฟรี คลิกเลย ((https://www.youtube.com/watch?v=dNCWe_6HAM8))""",,,UIPath_Test_C,,UIPath_Test_D,,,"- ThaiID
+- Age 18 - 40
+- BKK","- ThaiID
+- Age 18 - 40
+- BMR",,,Awareness,Informative,E-Commerce - Promo,Other - Testing,External (Affiliate Model),Other,Test UIPath flow,TrueID
